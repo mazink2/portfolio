@@ -38,6 +38,10 @@
         &.show {
             transform: translate3d(0, 0, 0);
         }
+
+        .nav-link {
+            font-size: 24px;
+        }
     }
 
     .menu-nav {
@@ -107,6 +111,12 @@
 
 // Smartphones
 @include mediaSm {
+
+    ul.menu-nav {
+        .nav-link {
+            font-size: 20px;
+        }
+    }
 
     main#home {
         .lg-heading {

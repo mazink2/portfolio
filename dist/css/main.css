@@ -104,7 +104,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background9.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -131,7 +131,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(2, 86, 170, 0.2); }
+    background: rgba(2, 86, 170, 0.25); }
 
 a {
   color: #fff;
@@ -180,6 +180,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1rem; }
+    .about-info .bio .resume {
+      color: #eefc2f; }
   .about-info .job {
     background: #0256aa;
     padding: 0.5rem;
@@ -278,6 +280,9 @@ main {
     ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
+    ul.menu-nav .nav-link,
+    div.menu-branding .nav-link {
+      font-size: 24px; }
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
@@ -313,6 +318,8 @@ main {
     font-size: 1.5rem; } }
 
 @media screen and (max-width: 500px) {
+  ul.menu-nav .nav-link {
+    font-size: 20px; }
   main#home .lg-heading {
     font-size: 5rem; }
   main#home .sm-heading {
