@@ -94,6 +94,10 @@
 
     .projects {
         grid-template-columns: repeat(2, 1fr);
+
+        img {
+            height: 160px;
+        }
     }
 
     #contact .lg-heading {
@@ -151,6 +155,8 @@
 
     .projects {
         grid-template-columns: 1fr;
+
+        
     }
 
     #contact .lg-heading {

@@ -199,11 +199,17 @@ main {
   grid-gap: 0.7rem; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    height: 200px;
+    border: 3px #fff solid;
+    object-fit: cover; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eefc2f;
       transition: all 0.5s ease-out; }
+    .projects img.survey-form {
+      object-position: top; }
+    .projects img.technical {
+      object-position: top left; }
 
 #contact .lg-heading {
   text-align: center;
@@ -311,6 +317,8 @@ main {
     font-size: 1.3rem; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
+    .projects img {
+      height: 160px; }
   #contact .lg-heading {
     margin-bottom: 2rem;
     font-size: 5rem; }
