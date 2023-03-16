@@ -1,122 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <title>View My Work</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>View My Work</title>
+    </head>
 
-<body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
+    <body>
+        <header>
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
             </div>
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        Home
+            <nav class="menu">
+                <div class="menu-branding">
+                    <div class="portrait"></div>
+                </div>
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link"> About Me </a>
+                    </li>
+                    <li class="nav-item current">
+                        <a href="work.html" class="nav-link"> My Work </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="work">
+            <h1 class="lg-heading">
+                My <span class="text-secondary">Work</span>
+            </h1>
+            <div class="projects">
+                <div class="item">
+                    <a href="https://icecobotics.com/" target="_blank">
+                        <img
+                            src="img/projects/ice-cobotics.png"
+                            class="survey-form"
+                            alt="ICE Cobotics"
+                        />
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">
-                        About Me
+                    <div class="project-details">
+                        <h3>Ice Cobotics</h3>
+                        <h4>E-Commerce</h4>
+                        <p>
+                            ICE Cobotics is an online store that gives users
+                            information about the company's commercial
+                            autonomous cleaning solutions and lets them select
+                            products/services to buy. This is a headless store
+                            built with React.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">ReactJS</div>
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">JavaScript</div>
+                            <div class="technology">NodeJS</div>
+                            <div class="technology">BigCommerce</div>
+                            <div class="technology">Google Cloud Platform</div>
+                        </div>
+                        <a
+                            href="https://icecobotics.com/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a class="btn-dark private">
+                            Source Code in Private Repo
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a
+                        href="https://www.performancegolfcarts.com/"
+                        target="_blank"
+                    >
+                        <img
+                            src="img/projects/pgc.png"
+                            class="survey-form"
+                            alt="Performance Golf Carts"
+                        />
                     </a>
-                </li>
-                <li class="nav-item current">
-                    <a href="work.html" class="nav-link">
-                        My Work
+                    <div class="project-details">
+                        <h3>Performance Golf Carts</h3>
+                        <h4>E-Commerce</h4>
+                        <p>
+                            Performance Golf Carts is an online store that lets
+                            users browse through their selection of golf carts
+                            and related parts/accessories. This custom
+                            BigCommerce store was created with Handlebars and
+                            Stencil.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">JavaScript</div>
+                            <div class="technology">BigCommerce</div>
+                            <div class="technology">Handlebars</div>
+                            <div class="technology">Stencil</div>
+                        </div>
+                        <a
+                            href="https://www.performancegolfcarts.com/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a class="btn-dark private">
+                            Source Code in Private Repo
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://pksafety.com/" target="_blank">
+                        <img
+                            src="img/projects/pk-safety.png"
+                            class="survey-form"
+                            alt="PK Safety"
+                        />
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        Contact
+                    <div class="project-details">
+                        <h3>PK Safety</h3>
+                        <h4>E-Commerce</h4>
+                        <p>
+                            PK Safety is an online store that lets users browse
+                            through and buy various safety equipment/personal
+                            protective gear. This is a headless store built with
+                            React and has a 3rd party payment integration (Bolt
+                            Checkout).
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">ReactJS</div>
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">JavaScript</div>
+                            <div class="technology">NodeJS</div>
+                            <div class="technology">Firebase</div>
+                            <div class="technology">Google Cloud Platform</div>
+                            <div class="technology">Algolia Search</div>
+                            <div class="technology">BigCommerce</div>
+                        </div>
+                        <a
+                            href="https://pksafety.com/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a class="btn-dark private">
+                            Source Code in Private Repo
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://www.babyriddle.com/" target="_blank">
+                        <img
+                            src="img/projects/baby-riddle.png"
+                            class="survey-form"
+                            alt="Baby Riddle"
+                        />
                     </a>
-                </li>
-            </ul>    
-        </nav>
-    </header>
+                    <div class="project-details">
+                        <h3>Baby Riddle</h3>
+                        <h4>E-Commerce</h4>
+                        <p>
+                            Baby Riddle is an online store that offers a variety
+                            of baby products including clothing, accessories,
+                            toys, and gear. This custom BigCommerce store was
+                            created with Handlebars and Stencil.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">JavaScript</div>
+                            <div class="technology">BigCommerce</div>
+                            <div class="technology">Handlebars</div>
+                            <div class="technology">Stencil</div>
+                        </div>
+                        <a
+                            href="https://www.babyriddle.com/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a class="btn-dark private">
+                            Source Code in Private Repo
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://seekoutside.com/" target="_blank">
+                        <img
+                            src="img/projects/seek-outside.png"
+                            class="survey-form"
+                            alt="Seek Outside"
+                        />
+                    </a>
+                    <div class="project-details">
+                        <h3>Seek Outside</h3>
+                        <h4>E-Commerce</h4>
+                        <p>
+                            Seek Outside is an online store that offers
+                            high-performance outdoor gear and equipment for
+                            backpacking, hunting, and other outdoor activities.
+                            This custom BigCommerce store was created with
+                            Handlebars and Stencil.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">JavaScript</div>
+                            <div class="technology">BigCommerce</div>
+                            <div class="technology">Handlebars</div>
+                            <div class="technology">Stencil</div>
+                        </div>
+                        <a
+                            href="https://seekoutside.com/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a class="btn-dark private">
+                            Source Code in Private Repo
+                        </a>
+                    </div>
+                </div>
 
-    <main id="work">
-        <h1 class="lg-heading">
-            My <span class="text-secondary">Work</span>
-        </h1>
-        <h2 class="sm-heading">
-            Check out some of my projects!
-        </h2>
-        <div class="projects">
-           <div class="item">
-               <a href="http://omnifoodproject.info/">
-                   <img src="img/projects/breakfast-house.JPG" class="survey-form" alt="Breakfast House - A sample restaurant website">
-               </a>
-               <a href="img/projects/breakfast-house.JPG" class="btn-light">
-                   <i class="fas fa-eye"></i> View Project
-               </a>
-               <a href="#" class="btn-dark">
-                   <i class="fab fa-github"></i> Github
-               </a>
-           </div>
-           <div class="item">
-               <a href="#!">
-                   <img src="img/projects/technical-documentation.JPG" class="technical" alt="Project">
-               </a>
-               <a href="#" class="btn-light">
-                   <i class="fas fa-eye"></i> View Project
-               </a>
-               <a href="#" class="btn-dark">
-                   <i class="fab fa-github"></i> Github
-               </a>
-           </div>
-           <div class="item">
-               <a href="#!">
-                   <img src="img/projects/project3.jpg" alt="Project">
-               </a>
-               <a href="#" class="btn-light">
-                   <i class="fas fa-eye"></i> View Project
-               </a>
-               <a href="#" class="btn-dark">
-                   <i class="fab fa-github"></i> Github
-               </a>
-           </div>
-           <div class="item">
-               <a href="#!">
-                   <img src="img/projects/project4.jpg" alt="Project">
-               </a>
-               <a href="#" class="btn-light">
-                   <i class="fas fa-eye"></i> View Project
-               </a>
-               <a href="#" class="btn-dark">
-                   <i class="fab fa-github"></i> Github
-               </a>
-           </div>
-           <div class="item">
-               <a href="#!">
-                   <img src="img/projects/project5.jpg" alt="Project">
-               </a>
-               <a href="#" class="btn-light">
-                   <i class="fas fa-eye"></i> View Project
-               </a>
-               <a href="#" class="btn-dark">
-                   <i class="fab fa-github"></i> Github
-               </a>
-           </div>
-        </div>
+                <div class="item">
+                    <a href="https://upbeat-jelly.surge.sh/" target="_blank">
+                        <img
+                            src="img/projects/spotify-playlist-app.png"
+                            class="survey-form"
+                            alt="Breakfast House - A sample restaurant website"
+                        />
+                    </a>
+                    <div class="project-details">
+                        <h3>Spotify Playlist Viewer</h3>
+                        <h4>Demo App</h4>
+                        <p>
+                            A demo single-page app I created to test out the Spotify API and
+                            see how it works. The app lets you search through all the
+                            songs in a playlist and takes you directly to
+                            Spotify when you click on any of the albums, song
+                            names or artist names.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">ReactJS</div>
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">SCSS</div>
+                            <div class="technology">JavaScript</div>
+                        </div>
+                        <a
+                            href="https://upbeat-jelly.surge.sh/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a
+                            href="https://github.com/mazink2/song-list-app"
+                            class="btn-dark"
+                            target="_blank"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://mazink2.github.io/sample-restaurant/dist/">
+                        <img
+                            src="img/projects/breakfast-house.JPG"
+                            class="survey-form"
+                            alt="Breakfast House - A sample restaurant website"
+                        />
+                    </a>
+                    <div class="project-details">
+                        <h3>Sample Restaurant Site</h3>
+                        <h4>Landing Page</h4>
+                        <p>
+                            A restaurant landing page with various sections to
+                            market to visitors.
+                        </p>
+                        <div class="tech-container">
+                            <div class="technology">HTML5</div>
+                            <div class="technology">CSS3</div>
+                            <div class="technology">SCSS</div>
+                        </div>
+                        <a
+                            href="https://mazink2.github.io/sample-restaurant/dist/"
+                            class="btn-light"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                        <a
+                            href="https://github.com/mazink2/sample-restaurant"
+                            class="btn-dark"
+                            target="_blank"
+                        >
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-    </main>
+        <footer id="main-footer">Copyright &copy; 2023</footer>
 
-    <footer id="main-footer">
-        Copyright &copy; 2023
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-
+        <script src="js/main.js"></script>
+    </body>
 </html>
